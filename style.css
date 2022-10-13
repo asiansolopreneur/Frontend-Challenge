@@ -1,0 +1,659 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: apercu_regular_pro;
+    src: url("fonts/apercu_regular_pro.otf") format("opentype");
+}
+
+@font-face {
+    font-family: apercu_bold_pro;
+    font-weight: bold ;
+    src: url("fonts/apercu_bold_pro.otf") format("opentype");
+}
+.bold {
+font-weight: bold;
+}
+
+
+header {
+    background-color: #685DC5;
+    color: #fff;
+    padding: 15px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.logo h2 {
+    font-family: 'apercu_bold_pro';
+    color: #fff;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    margin: 10px auto;
+}
+
+.logo span {
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.apply-now {
+    position: absolute;
+    right: 60px;
+    background-color: #4FA16C;
+    border-radius: 100px;
+    height: 120px;
+    width: 120px;
+    text-align: center;
+    bottom: -60px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+span.apply-title {
+    font-family: "apercu_bold_pro";
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.22px;
+    text-align: center;
+}
+
+.menu-icon {
+    font-size: 28px;
+    cursor: pointer;
+}
+
+/* End Header Section */
+
+
+/* Star Hero Section */
+
+.hero-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 170px; /*Update for responsive*/
+    margin-top: 170px; /*Update for responsive*/
+}
+
+.left-side-content h2 {
+    font-family: 'apercu_bold_pro';
+    color: #685DC5;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    font-weight: 500;
+}
+
+
+.left-side-content h4 {
+    color: #535353;
+    font-size: 22px;
+    line-height: 32px;
+    font-family: "apercu_regular_pro";
+    letter-spacing: -0.33px;
+}
+
+.left-side-content p {
+    font-family: 'apercu_regular_pro';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+    font-weight: 300;
+}
+
+a.cta-btn {
+    font-size: 18px;
+    font-family: 'apercu_bold_pro';
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    color: #fff;
+    background-color: #685DC5;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    border-radius: 29px;
+    padding: 15px 40px;
+    margin-top: 25px;
+}
+
+
+.left-side-content {
+    width: 45%;
+}
+
+/* hero section right side content */
+
+.powered-by {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+}
+
+.powered-des {
+    margin-left: 40px;
+}
+
+.powered-des h2 {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.18px;
+    color: #000000;
+    font-family: 'apercu_bold_pro';
+    opacity: 50%;
+}
+
+span.company {
+    font-size: 27px;
+    line-height: 24px;
+    color: #535353;
+    font-family: 'apercu_regular_pro';
+    letter-spacing: -0.27px;
+}
+
+.application-closes {
+    border: 1px solid #DADADA;
+    padding: 25px 40px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.application-closes h2 {
+    margin-top: 0;
+    color: #685DC5;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.15px;
+    font-family: 'apercu_regular_pro';
+}
+
+
+.application-deadline {
+    display: flex;
+    justify-content: space-between;
+    font-size: 27px;
+    line-height: 24px;
+    color: #535353;
+}
+
+.course-description {
+    border: 1px solid #DADADA;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+
+
+.course-des-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.course-des-info h2 {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #685DC5;
+    font-family: 'apercu_regular_pro';
+    letter-spacing: -0.16px;
+}
+
+
+.course-des-info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353;
+    font-family: 'apercu_regular_pro';
+    letter-spacing: -0.16px;
+}
+
+.apprenticeship-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.apprenticeship-profile {
+    margin: 0px 10%;
+    background-image: url(images/Pattern.png);
+    background-position: center center;
+    background-size: cover;
+    padding: 29px;
+}
+
+
+.apprenticeship-about h2 {
+    color: #685DC5;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    font-family: 'apercu_bold_pro';
+    margin-top: 0;
+}
+
+.apprenticeship-about p {
+    font-family: 'apercu_regular_pro';
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    font-weight: 300;
+    color: #535353;
+}
+
+.apprenticeship-about {
+    padding-right: 115px;
+}
+
+
+
+/* Apprenticeship-benefits */
+
+.apprenticeship-benefits {
+    margin-top: 70px;
+    display: flex;
+    margin-bottom: 170px;
+}
+
+
+.appapprenticeship-benifits-left {
+    border: 1px solid #DADADA;
+    width: 320px;
+    margin-left: 10%;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 30px 40px;
+}
+
+.appren-benifits-title h2 {
+    font-family: 'apercu_bold_pro';
+    font-size: 16px;
+    line-height: 24px;
+    color: #685DC5;
+    letter-spacing: -0.15px;
+    margin-top: 0;
+    margin-bottom: 33px;
+}
+
+span.s-value {
+    font-family: 'apercu_bold_pro';
+    font-size: 48px;
+    line-height: 24px;
+    color: #535353;
+    letter-spacing: -0.44px;
+
+}
+
+.s-value-border hr {
+    width: 265px;
+    margin-top: 187px;
+    border: 1px solid #DADADA;
+    margin-bottom: 60px;
+}
+
+.s-value-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-value-info h2 {
+    font-family: 'apercu_bold_pro';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #685DC5;
+}
+
+.s-value-info p {
+    font-family: 'apercu_regular_pro';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    color: #535353;
+}
+
+.s-details-info h2 {
+    margin-top: 0px;
+    font-family: 'apercu_bold_pro';
+    font-size: 26px;
+    line-height: 35px;
+    letter-spacing: -0.19px;
+    color: #6A6A6A;
+}
+
+hr.commitment-border {
+    margin: 0;
+    border: 1px solid #DADADA;
+    width: 28px;
+}
+
+.s-details-info p {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'apercu_regular_pro';
+    color: #535353;
+    letter-spacing: -0.16px;
+}
+
+.s-details-area {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.s-details-info {
+    border: 1px solid #DADADA;
+    width: 320px;
+    padding: 32px 30px;
+    margin-left: 40px;
+    border-radius: 4px;
+}
+
+.s-details-info h4 {
+    margin-top: 0px;
+    font-family: 'apercu_bold_pro';
+    color: #685DC5;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+.graduation-area {
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.graduation-item h2 {
+    font-family: 'apercu_bold_pro';
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353;
+    text-align: center;
+    letter-spacing: -0.15px;
+}
+
+.graduation-item hr {
+    width: 265px;
+    border: 1px solid #DADADA;
+}
+
+.graduation-details-area {
+    margin-left: 40px;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    padding: 32px 40px 20px 40px;
+    margin-top: 30px;
+    
+}
+
+.graduation-details-area h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'apercu_bold_pro';
+    color: #685DC5;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.graduation-details-area h2 {
+    font-family: 'apercu_bold_pro';
+    font-size: 26px;
+    line-height: 35px;
+    color: #6A6A6A;
+    letter-spacing: -0.19px;
+}
+
+.graduation-details-area p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353;
+    font-family: 'apercu_regular_pro';
+    letter-spacing: -0.16px;
+}
+
+
+/* Students Reviews */
+
+.students-reviews {
+    margin: 170px 0px;
+}
+
+
+.single-review {
+    width: 95%;
+    border: 1px solid #DADADA;
+    border-radius: 4px;
+    margin-left: 10%;
+
+}
+
+.student-profile {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+}
+
+.student-info h2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'apercu_regular_pro';
+    color: #535353;
+    letter-spacing: -0.15px;
+    margin-bottom: 0px;
+}
+
+.student-info p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #535353;
+    font-family: 'apercu_regular_pro';
+}
+
+
+
+.student-infos {
+    background-color: #fff;
+    display: flex;
+}
+
+.student-info {
+    margin-right: 30px;
+}
+
+.student-review {
+    background-color: #FBFBFB;
+    padding: 60px 120px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.student-review p {
+    font-size: 26px;
+    line-height: 35px;
+    color: #6A6A6A;
+    letter-spacing: -0.19px;
+    font-family: 'apercu_regular_pro';
+}
+
+span.education {
+    letter-spacing: -0.16px;
+    color: #535353;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'apercu_bold_pro';
+}
+
+.student-info img {
+    border-radius: 100px;
+    
+}
+
+.student-ID {
+    cursor: pointer;
+    padding-top: 30px;
+    padding-right: 10px;
+}
+
+
+/* Left and Right Move */
+
+i.fa.fa-chevron-left,i.fa.fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    height: 40px;
+    background-color: #FFFFFF;
+    width: 40px;
+    border: 1px solid #ECECEC;
+    color: #4F469C;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 100px;
+}
+
+i.fa.fa-chevron-left{
+left: 0;
+
+}
+
+i.fa.fa-chevron-right{
+right: 0;
+
+}
+
+/*
+FAQ SECTION 
+
+*****/
+
+
+.faq-intro {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 65px;
+}
+
+.faq-title h2 {
+    margin-top: 0;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.6px;
+    color: #685DC5;
+}
+
+p.my-apologies {
+    margin: 0;
+    font-size: 14px;
+    text-align: center;
+    color: #666666;
+}
+
+hr.faq-border {
+    border: 1px solid #E6E6E6;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+
+/* Accordian Updated */
+
+.accordian-section {
+    width: 80%;
+    margin: auto;
+}
+
+li.acc_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+
+.faq-iteam.acc_head {
+    width: 100%;
+}
+
+.faq-iteam.acc_head {
+    background-color: #fff !important;
+    border-bottom: none !important;
+}
+
+
+.accordionjs .acc_section {
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+li.acc_section.acc_active {
+    border-bottom: 1px solid #e6e6e6 !important;
+}
+
+.faq-iteam.acc_head h2 {
+    font-family: 'apercu_regular_pro';
+    font-size: 22px;
+    line-height: 32px;
+    color: #685DC5;
+    letter-spacing: -0.33px;
+}
+
+
+.faq-iteam.acc_content h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'apercu_regular_pro';
+    margin: 10px 0px;
+    color: #535353;
+}
+
+.faq-iteam.acc_content p {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -0.33px;
+    color: #535353;
+}
+
+/* Bottom Sticky bar */
+
+.footer-section {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.widget-area {
+    display: flex;
+    border: 1px solid #DADADA;
+    padding: 20px 80px;
+    
+    margin: auto;
+    justify-content: space-around;
+}
+
+.widget-info h2 {
+    font-family: 'apercu_regular_pro';
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #535353;
+    letter-spacing: -0.15px;
+}
+.widget-info p {
+    font-family: 'apercu_regular_pro';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.16px;
+    margin-bottom: 0;
+    color: #535353;
+}
