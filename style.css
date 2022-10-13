@@ -94,7 +94,7 @@ span.apply-title {
 }
 
 
-.left-side-content h4 {
+.left-side-content h4,.mobile-device h4{
     color: #535353;
     font-size: 22px;
     line-height: 32px;
@@ -102,7 +102,7 @@ span.apply-title {
     letter-spacing: -0.33px;
 }
 
-.left-side-content p {
+.left-side-content p,  .mobile-device p{
     font-family: 'apercu_regular_pro';
     font-size: 22px;
     line-height: 32px;
