@@ -1,0 +1,146 @@
+
+/* Default styles first then media queries */
+@media screen and (max-width: 399px)  {
+
+
+}
+@media screen and (min-width: 400px)  {
+
+
+}
+
+@media screen and (max-width: 599px)  {
+
+}
+@media screen and (min-width: 600px)  {
+
+}
+
+
+@media screen and (max-width: 779px)  {
+    .left-side-content h4,.left-side-content p,a.cta-btn {
+        display: none;
+    }
+    
+ 
+    .mobile-device h4,.mobile-device p,.mobile-device a.cta-btn {
+        display: block !important;
+    }
+
+}
+
+@media screen and (min-width: 780px)  {
+
+    .mobile-device {
+        display: none;
+    }
+
+ 
+
+
+}
+
+
+
+@media screen and (min-width: 1000px) {
+    
+ 
+
+}
+
+
+@media screen and (min-width: 1400px) {
+
+
+}
+
+
+@media all and (min-width: 979px) and (max-width: 1240px) {
+
+
+    /* SV benifits */
+
+    .apprenticeship-benefits {
+        margin-top: 30px;
+        display: inherit;
+        margin-bottom: 30px;
+    }
+
+    .appapprenticeship-benifits-left {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .apprenticeship-about {
+        padding-right: 0px;
+    }
+
+    .s-value-border hr {
+        margin-top: 100px;
+    }
+
+    .s-details-area {
+        justify-content: space-evenly;
+    }
+
+}
+
+@media all and (min-width: 320px) and (max-width: 980px) {
+
+
+    .apply-now {
+        display: none;
+    }
+
+    .hero-section {
+        margin-bottom: 50px;
+        margin-top: 50px;
+        padding: 0px 30px;
+        display: inherit;
+    }
+    
+    .left-side-content {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    /* SV Section */
+
+    .apprenticeship-info {
+        display: inherit;
+        margin: auto;
+        text-align: center;
+    }
+
+    .apprenticeship-profile {
+        margin: 0;
+        background-size: inherit;
+        padding: 0;
+        background-repeat: no-repeat;
+        margin-bottom: 25px;
+    }
+
+    .apprenticeship-about {
+        padding: 20px;
+    }
+
+    /* SV benifits */
+
+    .apprenticeship-benefits {
+        margin-top: 30px;
+        display: inherit;
+        margin-bottom: 30px;
+    }
+
+    .appapprenticeship-benifits-left {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .s-value-border hr {
+        margin-top: 100px;
+    }
+
+}

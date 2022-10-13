@@ -263,16 +263,16 @@ span.company {
     margin-top: 70px;
     display: flex;
     margin-bottom: 170px;
+    justify-content: space-evenly;
 }
 
 
 .appapprenticeship-benifits-left {
     border: 1px solid #DADADA;
     width: 320px;
-    margin-left: 10%;
     background-color: #fff;
     border-radius: 4px;
-    padding: 30px 40px;
+    padding: 30px 50px;
 }
 
 .appren-benifits-title h2 {
@@ -657,3 +657,4 @@ li.acc_section.acc_active {
     margin-bottom: 0;
     color: #535353;
 }
+
