@@ -1,11 +1,11 @@
-
 /* Default styles first then media queries */
-@media screen and (max-width: 399px)  {
 
+@media all and (min-width: 320px) and (max-width: 420px) {
 
-}
-@media screen and (min-width: 400px)  {
-
+    .logo h2,.left-side-content h2 {
+        font-size: 42px !important;
+        line-height: 54px !important;
+    }
 
 }
 
@@ -101,23 +101,18 @@
     }
 
 
+    .faq-iteam.acc_content {
+        width: 95%;
+        margin-right: 5%;
+    }
+
+
 
 
 }
 
 
 
-@media screen and (min-width: 1000px) {
-    
- 
-
-}
-
-
-@media screen and (min-width: 1400px) {
-
-
-}
 
 
 @media all and (min-width: 979px) and (max-width: 1240px) {
@@ -207,9 +202,5 @@
     .s-value-border hr {
         margin-top: 100px;
     }
-
-   
-
-
 
 }

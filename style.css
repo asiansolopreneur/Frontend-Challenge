@@ -178,6 +178,7 @@ span.company {
 
 
 .application-deadline {
+    font-family: 'apercu_regular_pro';
     display: flex;
     justify-content: space-between;
     font-size: 27px;
@@ -610,6 +611,8 @@ li.acc_section.acc_active {
 }
 
 
+
+
 .faq-iteam.acc_content h4 {
     font-size: 22px;
     line-height: 32px;
@@ -658,3 +661,6 @@ li.acc_section.acc_active {
     color: #535353;
 }
 
+li.acc_section.acc_active {
+    border-bottom: 2px solid #ccc !important;
+}
