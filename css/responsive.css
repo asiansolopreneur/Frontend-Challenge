@@ -11,11 +11,71 @@
 
 @media screen and (max-width: 599px)  {
 
-}
-@media screen and (min-width: 600px)  {
+
+    .faq-intro {
+        display: inherit;
+        margin-bottom: 35px;
+        text-align: center;
+    }
+
+    .s-details-area {
+        display: inherit;
+    }
+
+    .s-details-info {
+        margin-bottom: 25px !important;
+        padding: 30px 50px;
+        margin: auto;
+        
+    }
+
+    .appapprenticeship-benifits-left {
+        margin-bottom: 25px !important;
+    }
+
+    .s-value-border hr {
+        margin-top: 60px !important;
+    }
+
+    .logo span {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .application-closes { 
+        padding: 15px 15px;
+    }
+
+
+    .students-reviews {
+        margin: 70px 0px;
+    }
+
+    .student-review {
+        padding: 30px 50px;
+    }
+
+    .footer-section {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .widget-area {
+        display: inherit;
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    .widget-info {
+        margin-bottom: 15px;
+    }
+
+    .widget-info p {
+        margin-top: 0;
+    }
+
 
 }
-
 
 @media screen and (max-width: 779px)  {
     .left-side-content h4,.left-side-content p,a.cta-btn {
@@ -27,6 +87,11 @@
         display: block !important;
     }
 
+    .graduation-area {
+        display: inherit;
+    }
+ 
+
 }
 
 @media screen and (min-width: 780px)  {
@@ -35,7 +100,7 @@
         display: none;
     }
 
- 
+
 
 
 }
@@ -142,5 +207,9 @@
     .s-value-border hr {
         margin-top: 100px;
     }
+
+   
+
+
 
 }
